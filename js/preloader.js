@@ -3,7 +3,7 @@ const progressBar = document.querySelector('.progress-bar');
 let progress = 0;
 
 const interval = setInterval(() => {
-  progress += Math.random() * 10;
+  progress += 1;
   
   if (progress >= 100) {
     clearInterval(interval);
