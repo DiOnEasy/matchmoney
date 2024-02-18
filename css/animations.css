@@ -1,0 +1,39 @@
+.links__arrow, .gigachad__sock {
+    
+    animation: swing 2s infinite linear;
+  }
+  
+  @keyframes swing {
+    0% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(-10deg);
+    }
+  }
+
+  .do__img-text {
+    transform-origin: bottom left;
+
+    opacity: 0;
+    animation: appear 7s infinite linear;
+  }
+  
+  @keyframes appear {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
+  
